@@ -13,4 +13,4 @@ def register_middleware(app:FastAPI):
                         )
 
     app.add_middleware(TrustedHostMiddleware,
-                        allowed_hosts=["*"])
+                        allowed_hosts=["*","task-management-api-x1xo.onrender.com"])
